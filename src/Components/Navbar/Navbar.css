@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+
+.nave-link {
+    display: flex;
+    align-items: center;
+}
+
+.nave-link ul {
+    display: flex;
+    margin-right: 40px;
+}
+
+.nave-link ul li {
+    margin-left: 30px;
+    cursor: pointer;
+    position: relative;
+}
+
+.nave-link ul li:after {
+    position: absolute;
+    content: "";
+    width: 0px;
+    height: 15px;
+    bottom: 0px;
+    left: 0px;
+    transition: all .2s;
+    background-color: #0082FA;
+    z-index: -1;
+}
+
+.nave-link ul li:hover:after{
+    width: 40%;
+}
