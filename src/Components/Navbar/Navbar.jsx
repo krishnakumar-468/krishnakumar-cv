@@ -6,9 +6,9 @@ console.log(logo); // /logo.84287d09.png
 function Navbar() {
     return (
         <div className="navbar container">
-            <a  className="logo">
+            <div className="logo">
                  <img src={logo} alt="logo" />
-            </a>
+            </div>
             <div className='nave-link'>
                 <div>
                     <ul>
