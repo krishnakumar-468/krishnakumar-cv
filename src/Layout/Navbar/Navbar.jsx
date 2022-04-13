@@ -1,4 +1,4 @@
-import Button from '../Button/Button';
+import Button from '../../Components/Button/Button';
 import logo from "../../images/logo.png";
 import './Navbar.css';
 
