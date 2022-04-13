@@ -1,11 +1,14 @@
+import Button from '../Button/Button';
+import logo from "../../images/logo.png";
 import './Navbar.css';
 
+console.log(logo); // /logo.84287d09.png
 function Navbar() {
     return (
         <div className="navbar container">
-            <div className='logo'>
-                Logo
-            </div>
+            <a href='' className="logo">
+                 <img src={logo} alt="logo" />
+            </a>
             <div className='nave-link'>
                 <div>
                     <ul>
@@ -17,7 +20,7 @@ function Navbar() {
                     </ul>
                 </div>
                 <div>
-                    <button>Download CV</button>
+                    <Button></Button>
                 </div>
             </div>
         </div>
