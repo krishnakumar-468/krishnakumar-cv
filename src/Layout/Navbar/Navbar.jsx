@@ -1,7 +1,7 @@
 import Button from '../../Components/Button/Button';
-import logo from "./../../Images/logo.png";
+import logo from "../../Images/logo.png";
 import './Navbar.css';
-
+console.log(logo); 
 function Navbar() {
     return (
         <div className="navbar container">
@@ -17,7 +17,7 @@ function Navbar() {
                         <li> Portfolio </li>
                         <li> Skills </li>
                         <li> Reviews </li>
-
+                        
                     </ul>
                 </div>
                 <div>

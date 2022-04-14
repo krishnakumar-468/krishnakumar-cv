@@ -1,6 +1,6 @@
 import './Home.css'
 import Button from '../../Components/Button/Button';
-import homeBanner from "./../../Images/banner-image.jpg";
+import homeBanner from "../../Images/banner-image.jpg";
 
 function Home() {
     return (
