@@ -15,6 +15,7 @@
     display: flex;
     width: 100%;
     max-width: 240px;
+    cursor: pointer;
 }
 .send-query h4 {
     font-size: 15px;
@@ -28,6 +29,7 @@
 }
 .send-query span {
     background: #0082FA;
+    border: 1px solid #0082FA;
     width: 58px;
     height: 58px;
     display: flex;
@@ -36,4 +38,12 @@
     border-radius: 50%;
     margin-right: 6px;
     color: #fff;
+}
+.send-query:hover span {
+    background-color: transparent;
+    border: 1px solid #2d2d2d;
+    color: #2d2d2d;
+}
+.send-query:hover h3 {
+    color: #0082FA;
 }
