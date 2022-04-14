@@ -11,11 +11,13 @@ function Navbar() {
             <div className='nave-link'>
                 <div className="nave-link-menu">
                     <ul>
+
                         <li> Home </li>
                         <li> About me   </li>
                         <li> Portfolio </li>
                         <li> Skills </li>
                         <li> Reviews </li>
+                        
                     </ul>
                 </div>
                 <div>
