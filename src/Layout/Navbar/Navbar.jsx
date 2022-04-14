@@ -1,7 +1,9 @@
 import Button from '../../Components/Button/Button';
 import logo from "../../Images/logo.png";
 import './Navbar.css';
-console.log(logo); 
+
+console.log(logo); // /logo.84287d09.png
+
 function Navbar() {
     return (
         <div className="navbar container">
