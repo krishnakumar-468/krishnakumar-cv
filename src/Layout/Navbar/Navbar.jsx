@@ -1,8 +1,7 @@
 import Button from '../../Components/Button/Button';
-import logo from "../../images/logo.png";
+import logo from "../../Images/logo.png";
 import './Navbar.css';
 
-console.log(logo); // /logo.84287d09.png
 function Navbar() {
     return (
         <div className="navbar container">
@@ -10,7 +9,7 @@ function Navbar() {
                  <img src={logo} alt="logo" />
             </div>
             <div className='nave-link'>
-                <div>
+                <div className="nave-link-menu">
                     <ul>
                         <li> Home </li>
                         <li> About me   </li>
@@ -20,7 +19,7 @@ function Navbar() {
                     </ul>
                 </div>
                 <div>
-                    <Button></Button>
+                    <Button text="Download CV"></Button>
                 </div>
             </div>
         </div>

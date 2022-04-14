@@ -1,8 +1,8 @@
 import './Button.css';
 
-function Button() {
+function Button(props) {
     return (
-        <button>Download CV</button>
+        <button>{props.text}</button>
     );
 }
 

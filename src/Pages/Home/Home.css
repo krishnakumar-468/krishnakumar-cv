@@ -1,0 +1,20 @@
+.home-container {
+    padding: 30px 15px;
+    display: flex;
+}
+.home-container h1 {
+    font-size: 65px;
+    line-height: 98px;
+    margin-bottom: 40px;
+}
+.home-text {
+    max-width: 590px;
+    align-self: center;
+}
+.home-container button {
+    background-color: #0082FA;
+    border: 1px solid #0082FA;
+    color: #fafafa;
+    margin-top: 40px;
+    padding: 20px 50px;
+}
