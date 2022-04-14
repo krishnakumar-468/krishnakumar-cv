@@ -1,6 +1,5 @@
 import './Home.css'
 import Button from '../../Components/Button/Button';
-import homeBanner from "../../Images/banner-image.jpg";
 
 function Home() {
     return (
@@ -11,7 +10,7 @@ function Home() {
                 <Button text="Download CV"></Button>
             </div>
             <div className="home-banner">
-                <img src={homeBanner} alt="" />
+                <img src={process.env.PUBLIC_URL + '/images/banner-image.jpg'} alt="banner" />
             </div>
         </div>
     );

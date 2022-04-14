@@ -1,5 +1,4 @@
 import Button from '../../Components/Button/Button';
-import Logo from "../../Images/logo.png";
 import './Navbar.css';
 
 
@@ -7,7 +6,7 @@ function Navbar() {
     return (
         <div className="navbar container">
             <div className="logo">
-                 <img src={Logo} alt="logo" />
+                 <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo" />
             </div>
             <div className='nave-link'>
                 <div className="nave-link-menu">
