@@ -42,8 +42,8 @@ function Navbar() {
                 </div>
             </div>
             <Routes>
-                <Route exact path="/" element={<Home />} /> 
-                <Route path="/About" element={<About />} /> 
+                <Route exact path="krishnakumar-cv/" element={<Home />} /> 
+                <Route path="krishnakumar-cv/About" element={<About />} /> 
             </Routes>
         </BrowserRouter>
     );
