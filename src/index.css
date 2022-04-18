@@ -24,6 +24,10 @@
       top: 0px;
       display: none;
   }
+  .hamb-menu {
+    display: block;
+    margin-left: 15px;
+  }
   .nave-link ul {
       flex-direction: column;
       justify-content: center;
@@ -69,7 +73,7 @@
     line-height: 25px;
   }
   .navbar {
-    justify-content: center;
+    justify-content: space-between;
   }
   .navbar button {
     display: none;

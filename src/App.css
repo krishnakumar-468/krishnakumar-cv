@@ -10,6 +10,12 @@ body {
   h1,h2,h3,h4,h5,h6,p {
     margin: 0px;
   }
+  h3 {
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
   img {
     max-width: 100%;
   }
@@ -26,8 +32,26 @@ body {
   p {
     font-size: 20px;
     line-height: 30px;
+    margin-bottom: 20px;
   }
   a {
     text-decoration: none;
     color: #2d2d2d;
+  }
+  .hamb-menu {
+    display: none;
+  }
+  .hamb-menu span{
+    width: 35px;
+    height: 5px;
+    background-color: #2d2d2d;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 9px;
+  }
+  .hamb-menu span:nth-child(2) {
+    width: 25px;
+  }
+  .hamb-menu span:nth-child(3) {
+    margin-bottom: 0px;
   }

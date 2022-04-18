@@ -1,31 +1,53 @@
 import Button from '../../Components/Button/Button';
 import './Navbar.css';
+import About from '../../Pages/About/About';
+import Home from '../../Pages/Home/Home';
+import{
+    BrowserRouter,
+    Routes,
+    Route,
+    Link
+  } from 'react-router-dom';
 
 
 function Navbar() {
     return (
-        <div className="navbar container">
-            <div className="logo">
-                 <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo" />
-            </div>
-            <div className='nave-link'>
-                <div className="nave-link-menu">
-                    <ul>
-
-                        <li> Home </li>
-                        <li> About me   </li>
-                        <li> Portfolio </li>
-                        <li> Skills </li>
-                        <li> Reviews </li>
+        <BrowserRouter>
+            <div className="navbar container">
+                <div className="logo">
+                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo" />
+                </div>
+                <div className='nave-link'>
+                    <div className="nave-link-menu">
                         
-                    </ul>
-                </div>
-                <div>
-                    <Button text="Download CV"></Button>
+                            <ul>
+                                <li><Link  to="/">Home</Link></li>
+                                <li><Link to="/About">About me   </Link> </li>
+                                <li> Portfolio </li>
+                                <li> Skills </li>
+                                <li> Reviews </li>
+                            </ul>
+                    </div>
+                    
+                    <div>
+                        <Button text="Download CV"></Button>
+                    </div>
+
+                    <div className="hamb-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    
                 </div>
             </div>
-        </div>
+            <Routes>
+                <Route exact path="/" element={<Home />} /> 
+                <Route path="/About" element={<About />} /> 
+            </Routes>
+        </BrowserRouter>
     );
 }
 
 export default Navbar;
+    
