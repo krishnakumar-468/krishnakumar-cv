@@ -15,7 +15,7 @@ function Navbar() {
         <BrowserRouter>
             <div className="navbar container">
                 <div className="logo">
-                    <img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo" />
+                    <Link  to="krishnakumar-cv/"><img src={process.env.PUBLIC_URL + '/images/logo.png'} alt="logo" /></Link>
                 </div>
                 <div className='nave-link'>
                     <div className="nave-link-menu">
