@@ -21,8 +21,8 @@ function Navbar() {
                     <div className="nave-link-menu">
                         
                             <ul>
-                                <li><Link  to="/">Home</Link></li>
-                                <li><Link to="/About">About me   </Link> </li>
+                                <li><Link  to="krishnakumar-cv/">Home</Link></li>
+                                <li><Link to="krishnakumar-cv/About">About me   </Link> </li>
                                 <li> Portfolio </li>
                                 <li> Skills </li>
                                 <li> Reviews </li>
@@ -38,7 +38,7 @@ function Navbar() {
                         <span></span>
                         <span></span>
                     </div>
-                    
+
                 </div>
             </div>
             <Routes>
