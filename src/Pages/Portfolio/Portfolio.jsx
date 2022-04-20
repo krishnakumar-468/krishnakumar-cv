@@ -1,3 +1,5 @@
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Portfolio() {
     return (
@@ -8,7 +10,7 @@ function Portfolio() {
                 </div>
                 <div className="por-wrapp">
                     <div className="por-wrapp-col">
-                        <img src={process.env.PUBLIC_URL + '/images/design/po-1.jpg'} alt="works" />
+                        <LazyLoadImage src={process.env.PUBLIC_URL + '/images/design/po-1.jpg'} alt="works"></LazyLoadImage>
                     </div>
                     <div className="por-wrapp-col">
                         <img src={process.env.PUBLIC_URL + '/images/design/po-2.jpg'} alt="works" />
@@ -23,7 +25,7 @@ function Portfolio() {
                         <img src={process.env.PUBLIC_URL + '/images/design/po-5.jpg'} alt="works" />
                     </div>
                     <div className="por-wrapp-col">
-                        <img src={process.env.PUBLIC_URL + '/images/design/po-6.jpg'} alt="works" />
+                     <LazyLoadImage effect="blur" src={process.env.PUBLIC_URL + '/images/design/po-1.jpg'} alt="works"></LazyLoadImage>
                     </div>
                     
                 </div>
