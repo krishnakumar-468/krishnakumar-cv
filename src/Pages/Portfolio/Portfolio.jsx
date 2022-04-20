@@ -76,7 +76,7 @@ function Portfolio() {
 
                 <h3 className="id-h3" id="pro-design-react">My portfolio</h3>
                 <div className="por-wrapp" >
-                    <a href='https://krishnakumar-468.github.io/krishnakumar-cv/' className="pro-nav-link" target="_blank">
+                    <a href='https://krishnakumar-468.github.io/krishnakumar-cv/' className="pro-nav-link" target="_blank" rel="noreferrer">
                        My portfolio
                     </a>
                 </div>
