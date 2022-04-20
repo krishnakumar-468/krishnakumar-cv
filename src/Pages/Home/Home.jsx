@@ -6,7 +6,7 @@ function Home() {
         <div className="container home-container">
             <div className="home-text">
                 <h1>Hy,  I AM <br /> <span>KRISHNAKUMAR</span> </h1>
-                <p>UI Developer with 6+ years experience, seeking to use proven skills in UI prototyping to enhance user experience, deployed new features with 10% higher performance than previous employment.</p>
+                <p>UI Developer with 4+ years experience, seeking to use proven skills in UI prototyping to enhance user experience, deployed new features with 10% higher performance than previous employment.</p>
                 <Button text="Download CV"></Button>
             </div>
             <div className="home-banner">
