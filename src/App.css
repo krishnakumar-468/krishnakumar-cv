@@ -106,3 +106,6 @@ body {
     max-width: 100%;
     flex: 100%;
   }
+  .nave-link-menu .material-icons {
+    display: none;
+  }
