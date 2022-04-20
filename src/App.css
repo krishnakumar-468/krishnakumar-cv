@@ -70,9 +70,39 @@ body {
     max-width: 27.3%;
     flex: 0 0 27.3%;
     width: 100%;
-    background-color: #C2CEE6;
+    background-color: #fafafa;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
     padding: 50px 20px;
     margin: 0px 15px 30px;
     text-align: center;
     border-radius: 12px;
+  }
+  .pro-nav {
+    display: flex;
+    overflow: auto;
+    margin-top: 50px;
+  }
+  .pro-nav-link {
+    background-color: #fff;
+    font-size: 18px;
+    padding: 15px 45px;
+    text-align: center;
+    display: block;
+    -webkit-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.1);
+    -moz-box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 8px -1px rgba(0,0,0,0.1);
+    transition: all .2s;
+  }
+  .pro-nav-link:hover {
+    background-color: #0082FA;
+    color: #fff;
+  }
+  .id-h3 {
+    font-size: 35px;
+    padding-top: 50px;
+    border-bottom: 1px solid #fff;
+  }
+  .por-wrapp .por-wrapp-col.por-wrapp-col100 {
+    max-width: 100%;
+    flex: 100%;
   }
