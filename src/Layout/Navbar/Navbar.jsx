@@ -2,6 +2,8 @@ import Button from '../../Components/Button/Button';
 import './Navbar.css';
 import About from '../../Pages/About/About';
 import Home from '../../Pages/Home/Home';
+import Experience from '../../Pages/Experience/Experience';
+import Portfolio from '../../Pages/Portfolio/Portfolio';
 import{
     BrowserRouter,
     Routes,
@@ -23,9 +25,9 @@ function Navbar() {
                             <ul>
                                 <li><Link  to="krishnakumar-cv/">Home</Link></li>
                                 <li><Link to="krishnakumar-cv/About">About me   </Link> </li>
-                                <li> Portfolio </li>
-                                <li> Skills </li>
-                                <li> Reviews </li>
+                                <li><Link to="krishnakumar-cv/Portfolio"> Portfolio</Link> </li>
+                                {/* <li> Skills </li> */}
+                                <li><Link to="krishnakumar-cv/Experience">Experience </Link></li>
                             </ul>
                     </div>
                     
@@ -44,6 +46,8 @@ function Navbar() {
             <Routes>
                 <Route exact path="krishnakumar-cv/" element={<Home />} /> 
                 <Route path="krishnakumar-cv/About" element={<About />} /> 
+                <Route path="krishnakumar-cv/Experience" element={<Experience />} />
+                <Route path="krishnakumar-cv/Portfolio" element={<Portfolio />} />
             </Routes>
         </BrowserRouter>
     );

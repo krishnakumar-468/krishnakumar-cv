@@ -1,0 +1,28 @@
+.exp-wrapp {
+    display: flex;
+    margin-top: 50px;
+    max-width: 1000px;
+}
+.exp-wrapp h6 {
+    font-size: 18px;
+    font-weight: 400;
+}
+.exp-wrapp h5 {
+    font-size: 15px;
+    color: #0082FA;
+    font-weight: 400;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.exp-wrapp h4 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+.exp-year {
+    margin-right: 20px;
+    border-right: 1px solid #cecece;
+    padding-right: 15px;
+    max-width: 300px;
+    width: 100%;
+}

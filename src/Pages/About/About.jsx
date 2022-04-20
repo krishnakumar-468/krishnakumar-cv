@@ -8,8 +8,8 @@ function About() {
             </div>
             <div className="home-text">
                 <h3>About me</h3>
-                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don’t look even slightly </p>
-                <p>Believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn’t a</p>
+                <p>UI Developer with 4+ years experience, seeking to use proven skills in UI prototyping to enhance user experience, deployed new features with 10% higher performance than previous employment. Completed jobs 15% before targets with 95% client scores. </p>
+                
                 <Button text="Download CV"></Button>
             </div>
             
