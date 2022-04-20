@@ -26,42 +26,42 @@ function Portfolio() {
                 <h3 className="id-h3" id="pro-design-web">Web</h3>
                 <div className="por-wrapp" >
                     <div className="por-wrapp-col">
-                        <a href='https://hotelcard.com/' className="pro-nav-link" target="_blank">
+                        <a href='https://hotelcard.com/' className="pro-nav-link" target="_blank" rel="noreferrer">
                         Hotelcard
                         </a>
                     </div>
                     <div className="por-wrapp-col">
-                        <a href='http://xamion.in' className="pro-nav-link" target="_blank">
+                        <a href='http://xamion.in' className="pro-nav-link" target="_blank" rel="noreferrer">
                         Xamion
                         </a>
                     </div>
                     <div className="por-wrapp-col">
-                        <a href='http://web.accoxi.com' className="pro-nav-link" target="_blank">
+                        <a href='http://web.accoxi.com' className="pro-nav-link" target="_blank" rel="noreferrer">
                         Accoxi
                         </a>
                     </div>
                     <div className="por-wrapp-col">
-                        <a href='http://at228.ofabi.com/zelloznew/index.html#' className="pro-nav-link" target="_blank">
+                        <a href='http://at228.ofabi.com/zelloznew/index.html#' className="pro-nav-link" target="_blank" rel="noreferrer">
                         Zelloz
                         </a>
                     </div>
                     <div className="por-wrapp-col">
-                        <a href='http://www.bdmconsultancy.com/' className="pro-nav-link" target="_blank">
+                        <a href='http://www.bdmconsultancy.com/' className="pro-nav-link" target="_blank" rel="noreferrer">
                         BDM consultancy
                         </a>
                     </div>
                     <div className="por-wrapp-col">
-                        <a href='http://gentlemanchits.com/' className="pro-nav-link" target="_blank">
+                        <a href='http://gentlemanchits.com/' className="pro-nav-link" target="_blank" rel="noreferrer">
                         Gentleman chits
                         </a>
                     </div>
                     <div className="por-wrapp-col">
-                        <a href='http://www.snsgov-shj.ae/' className="pro-nav-link" target="_blank">
+                        <a href='http://www.snsgov-shj.ae/' className="pro-nav-link" target="_blank" rel="noreferrer">
                         SNSGov
                         </a>
                     </div>
                     <div className="por-wrapp-col">
-                        <a href='https://nakshathraonline.com/' className="pro-nav-link" target="_blank">
+                        <a href='https://nakshathraonline.com/' className="pro-nav-link" target="_blank" rel="noreferrer">
                         Nakshathra
                         </a>
                     </div>
